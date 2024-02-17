@@ -16,12 +16,12 @@
    - In the Individual Components section, ensure that .NET 8.0 Runtime (Long Term Support) is selected.
    - Proceed with the installation.
 2. **Download Visual Studio Code (https://code.visualstudio.com/)**
-3. **Clone the Following Repositories:**
+3. **Clone the Following 3 Repositories:**
    * upload-file-client
      * Open CMD and navigate to the FileUploadClient directory.
      * Execute `code .` to open Visual Studio Code.
      * Run `npm run dev` to start the development server.
-   * upload-file-server
+   * upload-file-server **(https://github.com/SurachaThongmanee/file-upload-server)**
      * open the solution. Ensure the following packages are installed:
        * IdentityModel.AspNetCore.OAuth2Introspection
        * Microsoft.AspNetCore.Authentication.JwtBearer
@@ -32,6 +32,6 @@
      * To run tests in project UploadFileServer.Test:
        * Right-click on => `UploadServiceTests.cs` in **FileUploadService.Tests**.
        * Select => **Run Tests** to execute the unit tests.
-   * notification-server
+   * notification-server **(https://github.com/SurachaThongmanee/notification-server)**
      * Open the solution.
      * Run the project.
