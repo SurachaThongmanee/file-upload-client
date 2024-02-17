@@ -1,8 +1,9 @@
 # Upload File Microservice
+### Overview
+**The Upload File project is a microservice application developed using C#.NET 8 and React.JS. It offers various features aimed at enhancing security, scalability, and testability.**
 
-**The Upload File project is a microservice application developed with C#.NET 8 and React.JS. It boasts the following features:**
-
-* **Security:** Utilizes JWT Token for enhanced security.
+## Key Features
+* **Security:** Implements JWT Token for enhanced security and API key for communication between the file-upload-server and notification-server.
 * **Scalability:** Supports multi-file uploads and can send multiple emails for improved scalability.
 * **Testability:** Includes unit tests in UploadFileServer for robust testability.
 * **API Standard (RESTful):** Comprises three distinct parts - Upload Client, Upload Server, and Notification Server, adhering to API standards.
@@ -21,7 +22,7 @@
      * Execute `code .` to open Visual Studio Code.
      * Run `npm run dev` to start the development server.
    * upload-file-server
-     * open the solution for both projects: FileUploadServer and NotificationServer. Ensure the following packages are installed:
+     * open the solution. Ensure the following packages are installed:
        * IdentityModel.AspNetCore.OAuth2Introspection
        * Microsoft.AspNetCore.Authentication.JwtBearer
        * Microsoft.AspNetCore.Cors
@@ -31,5 +32,6 @@
      * To run tests in project UploadFileServer.Test:
        * Right-click on => `UploadServiceTests.cs` in **FileUploadService.Tests**.
        * Select => **Run Tests** to execute the unit tests.
-   * upload-file-notification
+   * notification-server
+     * Open the solution.
      * Run the project.
