@@ -8,15 +8,14 @@
 * **API Standard (RESTful):** Comprises three distinct parts - Upload Client, Upload Server, and Notification Server, adhering to API standards.
 
 ### Setup Instructions
-1. Extract the Zip File
-2. Download Visual Studio Community 2022:
+1. **Download Visual Studio Community 2022:**
    - Visit Visual Studio Community 2022 and download the installer(https://visualstudio.microsoft.com/vs/community/).
    - Install Visual Studio Community 2022.
    - In the Workloads section, ensure that .NET Desktop Development is selected.
    - In the Individual Components section, ensure that .NET 8.0 Runtime (Long Term Support) is selected.
    - Proceed with the installation.
-3. Download Visual Studio Code (https://code.visualstudio.com/)
-4. Clone the Following Repositories:
+2. **Download Visual Studio Code (https://code.visualstudio.com/)**
+3. **Clone the Following Repositories:**
    * upload-file-client
      * Open CMD and navigate to the FileUploadClient directory.
      * Execute `code .` to open Visual Studio Code.
