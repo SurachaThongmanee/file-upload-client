@@ -162,11 +162,8 @@ const FileUpload = () => {
             </Grid>
             <Grid item xs={8}>
               <InputLabel sx={{ textAlign: "left" }}>
-                {" "}
-                ** You can send to multi email by using "," for this example as
-                below :<br></br>{" "}
-                <div style={{ color: "red" }}>
-                  "Example_1_@gmail.com, Example_2_@gmail.com"
+                <div >
+                  example_1_@gmail.com , example_2_@gmail.com,...
                 </div>
               </InputLabel>
             </Grid>
