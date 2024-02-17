@@ -16,7 +16,7 @@
    - In the Individual Components section, ensure that .NET 8.0 Runtime (Long Term Support) is selected.
    - Proceed with the installation.
 3. Download Visual Studio Code (https://code.visualstudio.com/)
-4. Clone 3 repo as below
+4. Clone the Following Repositories:
    * upload-file-client
      * Open CMD and navigate to the FileUploadClient directory.
      * Execute `code .` to open Visual Studio Code.
